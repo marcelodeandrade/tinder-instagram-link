@@ -1,8 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "My new extension",
-    "description": "It does stuff",
+    "name": "Tinder web - Instagram Link",
+    "description": "Allows intasgram view profile",
     "version": "1",
+    "icons": {
+        "120": "assets/instagram.png"
+    },
     "content_scripts": [
         {
             "matches": ["https://tinder.com/app/recs/*"],
